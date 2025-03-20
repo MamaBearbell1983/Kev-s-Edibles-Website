@@ -1,0 +1,111 @@
+/* Allgemeine Stile für alle Seiten */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #c4a484;
+    color: #4a3b2f;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header-Stil */
+header {
+    background: linear-gradient(135deg, #6b8e23, #556b2f);
+    color: white;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Navigation */
+nav {
+    background: #2f2f2f;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+nav a {
+    color: #f4e1c1;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+nav a:hover {
+    color: #ffd700;
+}
+
+/* Container-Stil */
+.container {
+    padding: 40px;
+    background: #a67b5b;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Zusätzliche braune Sektion */
+.brown-section {
+    background: #a67b5b;
+    padding: 50px 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Rezeptkarten-Stil */
+.recipe-card {
+    background: #fff8e1;
+    padding: 15px;
+    margin: 15px auto;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    text-align: left;
+}
+.recipe-card h2 {
+    text-align: center;
+    color: #4a3b2f;
+}
+.recipe-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.recipe-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+.recipe-card li {
+    background: #f4e1c1;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: #2f2f2f;
+    padding: 20px;
+    color: #c4a484;
+    margin-top: 40px;
+}
+
+/* Social Media Icons */
+.social-icons a {
+    color: #c4a484;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+.social-icons a:hover {
+    color: #ffd700;
+}
+nav {
+    background: #2f2f2f;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
